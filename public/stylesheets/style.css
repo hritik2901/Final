@@ -1,0 +1,222 @@
+* {
+	padding: 0%;
+	margin: 0%;
+	box-sizing: border-box;
+	font-family: "Grandstander";
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+main {
+	width: 100%;
+	height: 100%;
+	background-image: url("/images/dhagna-DZ975EkUJH0-unsplash.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	z-index: -2;
+	perspective: 1400px;
+}
+#mainPage {
+	/* transform: scale(0.2) translateX(-25%) translateY(-185%) rotateY(5deg); */
+	/* filter: blur(5px); */
+	width: 100%;
+	height: 400%;
+	position: absolute;
+	background-image: url("/images/a.jpg");
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+	perspective: 500px;
+}
+#navshow {
+	position: absolute;
+	z-index: 999;
+	margin-top: 2.5%;
+	left: 92%;
+	font-size: 38px;
+}
+#homePage {
+	height: 25%;
+	width: 100%;
+	position: relative;
+}
+#aboutPage {
+	height: 25%;
+	width: 100%;
+	position: relative;
+}
+#skillsPage {
+	height: 25%;
+	width: 100%;
+	position: relative;
+}
+#contactPage {
+	height: 25%;
+	width: 100%;
+	position: relative;
+}
+#head1 {
+	position: absolute;
+	top: 35%;
+	left: 12%;
+}
+#title1 {
+	font-size: 100px;
+	font-weight: 100;
+	display: block;
+}
+#title2 {
+	font-size: 100px;
+	font-weight: 100;
+	display: block;
+}
+#intro {
+	position: absolute;
+	top: 62%;
+	left: 12%;
+	font-size: large;
+}
+#skillsheading {
+	font-size: 72px;
+	font-weight: 200;
+	text-decoration: darkslategray;
+	transform: translate(-50%, -50%);
+	top: 10%;
+	left: 50%;
+	position: absolute;
+}
+#skillsSec {
+	width: 100%;
+	height: 80%;
+	position: absolute;
+	top: 20%;
+	display: flex;
+	flex-wrap: wrap;
+}
+#skillsBoxOne {
+	height: 100%;
+	width: 50%;
+	position: relative;
+}
+#skillsBoxTwo {
+	height: 100%;
+	width: 50%;
+	position: relative;
+}
+#skillsBoxOne h1 {
+	font-size: 46px;
+	font-weight: 300;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+#skillsBoxTwo h1 {
+	font-size: 46px;
+	font-weight: 300;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 3%;
+}
+.smallboxes {
+	width: 100%;
+	height: 12%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.halfbox h2 {
+	font-weight: 300;
+	font-size: 28px;
+}
+.halfbox {
+	height: 100%;
+	width: 30%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.level {
+	height: 17%;
+	width: 40%;
+	background-color: transparent;
+	border: 2px solid black;
+	padding: 3px;
+}
+#skillLevel1 {
+	height: 100%;
+	width: 95%;
+	background-color: black;
+}
+#skillLevel2 {
+	height: 100%;
+	width: 95%;
+	background-color: black;
+}
+#skillLevel3 {
+	height: 100%;
+	width: 90%;
+	background-color: black;
+}
+#skillLevel4 {
+	height: 100%;
+	width: 80%;
+	background-color: black;
+}
+#skillLevel5 {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+}
+#skillLevel6 {
+	height: 100%;
+	width: 80%;
+	background-color: black;
+}
+#sidenav {
+	position: absolute;
+	top: 15%;
+	left: 75%;
+	height: 70%;
+	width: 20%;
+	background-color: transparent;
+	z-index: 100;
+	background-color: blue;
+	cursor: pointer;
+	pointer-events: initial;
+}
+#closenav {
+	margin-left: 87%;
+	margin-top: 0.5rem;
+	font-size: 27px;
+}
+#sidenav h1 {
+	font-weight: 300;
+	font-size: 40px;
+	margin-top: 1.25rem;
+	text-align: center;
+}
+#navbar {
+	text-align: center;
+	position: absolute;
+	z-index: 1000;
+	margin-top: 4rem;
+}
+#navbar a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	transition: 0s all ease-in-out;
+	padding: 25px;
+	font-size: 27px;
+}
+#navbar a:hover {
+	text-shadow: 3px 2px 2px rgb(43, 43, 43);
+}

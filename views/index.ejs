@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://www.griffininsight.com/css/animate.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <div id="sidenav">
+      <div id="closenav"><i class="ri-close-line"></i></div>
+      <h1>Navigation</h1>
+      <div id="navbar">
+        <a href="#homePage" id="homelink">HOME</a>
+        <a href="#aboutPage" id="aboutlink">ABOUT ME</a>
+        <a href="#skillsPage" id="skillslink">SKILLS N WORKS</a>
+        <a href="#contactPage" id="contactlink">CONTACT ME</a>
+      </div>
+    </div>
+    <div id="mainPage">
+      <div id="homePage">
+        <div id="head1">
+          <h2 id="title1">I am</h2>
+          <h2 id="title2">Hritik Kothari</h2>
+        </div>
+        <p id="intro">I am a Guitarist , Web Developer , a Sports-Person and a Management Student...!!!</p>
+        <div id="navshow"><i class="ri-menu-4-line"></i></div>
+      </div>
+      <div id="aboutPage">About</div>
+      <div id="skillsPage">
+        <h1 id="skillsheading">My Skills N Works</h1>
+        <div id="skillsSec">
+          <div id="skillsBoxOne">
+            <h1>My Coding Skills...</h1>
+            <div id="smallbox1" class="smallboxes">
+              <div class="halfbox">
+                <h2>HTML</h2>
+              </div>
+              <div class="level">
+                <div id="skillLevel1"></div>
+              </div>
+            </div>
+            <div id="smallbox2" class="smallboxes">
+              <div class="halfbox">
+                <h2>CSS</h2>
+              </div>
+              <div class="level">
+                <div id="skillLevel2"></div>
+              </div>
+            </div>
+            <div id="smallbox3" class="smallboxes">
+              <div class="halfbox">
+                <h2>JavaScript</h2>
+              </div>
+              <div class="level">
+                <div id="skillLevel3"></div>
+              </div>
+            </div>
+            <div id="smallbox4" class="smallboxes">
+              <div class="halfbox">
+                <h2>jQuery</h2>
+              </div>
+              <div class="level">
+                <div id="skillLevel4"></div>
+              </div>
+            </div>
+            <div id="smallbox5" class="smallboxes">
+              <div class="halfbox">
+                <h2>BootStrap</h2>
+              </div>
+              <div class="level">
+                <div id="skillLevel5"></div>
+              </div>
+            </div>
+            <div id="smallbox6" class="smallboxes">
+              <div class="halfbox">
+                <h2>GSAP</h2>
+              </div>
+              <div class="level">
+                <div id="skillLevel6"></div>
+              </div>
+            </div>
+          </div>
+          <div id="skillsBoxTwo">
+            <h1>My Guitar Covers...</h1>
+          </div>
+        </div>
+      </div>
+      <div id="contactPage">Contact</div>
+    </div>
+  </main>
+
+  <script src="/javascripts/jQuery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+    integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"
+    integrity="sha512-wK2NuxEyN/6s53M8G7c6cRUXvkeV8Uh5duYS06pAdLq4ukc72errSIyyGQGYtzWEzvVGzGSWg8l79e0VkTJYPw=="
+    crossorigin="anonymous"></script>
+  <script src="/javascripts/jquery.lettering-0.6.1.min.js"></script>
+  <script src="/javascripts/textillate.js"></script>
+  <script src="/javascripts/script.js"></script>
+  <script>
+    let show = document.querySelector('#navshow');
+
+      show.addEventListener('click', function () {
+        console.log('Helloooo');
+      })
+  </script>
+</body>
+
+</html>
